@@ -1,0 +1,34 @@
+.navbar{
+    height: 5vmax;
+    width: inherit;
+    background-color: rgb(99, 22, 22);
+    overflow: hidden;
+}  
+.navbar-text{
+    float: left;
+    color: rgb(218, 23, 23);
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 20px;
+} 
+.frontImage{
+    height: 70vmax;
+    max-width: 100%;
+    background-image: url(../image/music.jpeg); 
+    /* background-image: linear-gradient(
+        to bottom,
+        rgba(22, 139, 168, 0.3),
+        rgba(2, 47, 70, 0.6)),
+        url(//deepa-library/src/components/image/music.jpeg);    */
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.text{
+    font: small-caption;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 80%;
+    color: rgb(71, 7, 168);
+}
