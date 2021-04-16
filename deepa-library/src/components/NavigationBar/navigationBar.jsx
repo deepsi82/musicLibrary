@@ -1,18 +1,22 @@
 import React from 'react';
 import './navigationBar.css';
 
+
+
 function NavigationBar(props) {
     return (
         <div className="navBar">
-          <a class="navBar-text" href="components/Musiclist/musicList.jsx"> MusicList</a>
+          <a href="Home"> Home</a>
+          <a href="musicList"> Music</a>
         <div className="frontImage"> 
-        <div className="text">
+        <div classname="frontPageText" >
             <h1>Deepa's Music Library</h1>
-        </div> 
         </div>
-        </div> 
+        </div>
+        </div>
 
-    );
+);
 }
+
 
 export default NavigationBar;    
